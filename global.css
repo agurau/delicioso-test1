@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*------------- Main CSS ---------------*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(73, 68, 68);
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-family: "Viaoda Libre", cursive;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*------------- Main CSS --------------*/
+
+/*----------------- NAV BAR ---------------- */
+
+.nav {
+  background-color: #fff;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 13vh;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.nav .nav-logo a {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  display: block;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  color: rgb(95, 158, 160);
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+/* Home - Menu -Order - Contact us */
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.nav .nav-items .nav-link:hover {
+  background-color: rgb(95, 158, 160);
+}
+
+.nav .nav-items .nav-link:hover a {
+  color: #fff;
+}
+
+/* Add an active class to highlight the current page */
+/* .top-nav a.active {
+  background-color: rgb(95, 158, 160);
+  color: white;
+} */
+
+.top-nav .icon {
+  display: none;
+}
+
+/*---------x-------- NAV BAR --------x-------- */
+
+/*--------------------- FOOTER --------------------- */
+
+.footer-area {
+  margin-top: 100px;
+  padding: 100px 0;
+  background-color: rgb(95, 158, 160);
+}
+
+.footer-area .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-area .container .footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer-area .container .footer .single-footer {
+  width: 260px;
+}
+
+.footer-area .container .footer .single-footer:first-child {
+  width: 280px;
+}
+
+.footer-area .container .footer .single-footer h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.footer-area .container .footer .single-footer p {
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.footer-area .container .footer .single-footer ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer-area .container .footer .single-footer ul li a {
+  color: rgb(59, 59, 59);
+  /* text-decoration: rgb(95, 158, 160); */
+}
+
+.footer-area .container .footer .single-footer ul li a:hover {
+  color: #fff;
+}
+
+.footer-area .container .footer .single-footer ul li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.footer-area .container .footer .copy p {
+  text-transform: capitalize;
+  margin-top: 50px;
+  font-family: "Viaoda Libre", cursive;
+}
+
+/*-----------x---------- FOOTER -----------x---------- */
+
+/*----------------- MEDIA QUERIES ---------------- */
+
+@media screen and (max-width: 500px) {
+  .nav .nav-logo a {
+    font-size: 2rem;
+  }
+  .nav .nav-items .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav .nav-logo a {
+    font-size: 1.5rem;
+  }
+  .nav .nav-items .nav-link {
+    padding: 1.6rem 0.2rem;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .nav-items a {
+    display: none;
+  }
+  .top-nav a.icon {
+    float: right;
+    display: block;
+  }
+} */
+
+/* @media screen and (max-width: 600px) {
+  .top-nav.responsive {
+    position: relative;
+  }
+  .top-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} */
+
+/*---------x-------- MEDIA QUERIES --------x-------- */

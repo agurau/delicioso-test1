@@ -1,0 +1,40 @@
+/*----------------- MAIN SECTION ---------------- */
+
+main .site-title {
+  background: url("./images/home-background.jpg");
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  /* margin: 3rem 0rem; */
+}
+
+main .site-title .site-background {
+  padding-top: 10rem;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  opacity: 0.8;
+}
+
+main .site-title .site-background h3 {
+  padding: 0.5rem;
+  color: #fff;
+}
+
+main .site-title .site-background h1 {
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background-color: rgb(95, 158, 160);
+}
+
+main .site-title .btn:hover {
+  border: 1px solid #fff;
+  background-color: rgb(26, 77, 77);
+}
+
+/*--------x--------- MAIN SECTION --------x-------- */
